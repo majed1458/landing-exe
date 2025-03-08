@@ -314,14 +314,14 @@ background-color: white;}
             object-fit: cover;
             border-radius: 50%;
 }
+.client-testimonials{
+    padding: 8rem 1rem;
+    /* background-color: var(--card-background); */
+}
 .testimonials-grid{
     display: flex;
     align-items: center;
-    width: 40%;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    background-color: var(--card-background);
-    padding: 5px;
-    margin: 2rem;
+    max-width: 1200px;
     gap: 2rem;
 }
 .testimonial-cards{
@@ -331,6 +331,13 @@ background-color: white;}
     flex-wrap: wrap;
     
 
+}
+.Testimonial-item{
+    background-color: var(--card-background);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.297);
+    flex: 1 1 250px;
 }
 .testimonial-cards p{
     font-size: 1.1rem;
